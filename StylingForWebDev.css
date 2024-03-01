@@ -1,0 +1,69 @@
+/* Styling of format for body HTML font */
+/* color codes for my own notes
+	#906b4e - tan
+	#6a321e - orange
+	#3b1c13 - red
+	#322d24 - sage
+	#0f1110 - forest*/
+
+@font-face {
+	font-family: Farsans
+	src: url {}}
+body, html{
+	height: 100%;
+	color:#777;
+	line-height: 1.5;
+}
+
+/* Creating a Parallax (Webpage navigation bar doesn't move but other content does) */
+
+.homephoto, .aboutphoto, .contactphoto {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Photo imports and sizing */
+.homephoto {
+	background-image: url();
+	min-height: 100%
+}
+
+.aboutphoto{
+	background-image: url();
+	min-height: 300 px;
+}
+
+.contactphoto{
+	background-image: url();
+	min-height: 300 px;
+}
+
+.styling-wide {letter-spacing: 15px;}
+.hover-opacity {cursor:pointer;}
+
+/* Navigation Bar Styling */
+#navlist{
+	list-style-type: none;
+	margin: 10;
+	padding: 10;
+}
+
+/* Button Styling */
+.button{
+	background-color:;
+	border: none;
+	color:;
+	padding: 15px 32px;
+	text-align: Center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;}
+
+
+
+
+
+
+
