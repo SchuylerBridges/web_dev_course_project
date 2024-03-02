@@ -1,77 +1,96 @@
 /* Styling of format for body HTML font */
 /* color codes for my own notes
-	#906b4e - tan
-	#6a321e - orange
-	#3b1c13 - red
-	#322d24 - sage
-	#0f1110 - forest*/
+	bistre: #3B2E25ff;
+	coffee: #724B3Cff;
+	linen: #F4EBE2ff;
+	feldgrau: #4B594Cff;
+	hookers-green: #688277ff;*/
 
+/*Image formatting*/
+.aboutphoto{
+	text-align: left;
+}
+
+/* Text & basic Webpage Formatting */
 .farsan-regular {
-  font-family: "Farsan", cursive;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Farsan", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+.imgContainer{
+	
+}
+.h1Container{
+	max-width: 35%;
+	margin-top: 20px auto;
+	padding: 10px;
+	background-color:#3B2E25ff;
+	box-shadow: 0 0 7px #724B3Cff;
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Farsan;
+	margin:2%
+}
+
+p{
+	font-family: Farsan;
+	padding: 10px;
+	text-align:left;
 }
 
 body, html{
+	font-family: Farsan;
 	height: 100%;
-	color:#906b4e;
+	color:#F4EBE2ff;
 	line-height: 1.5;
+	background-color:#4B594Cff;
 }
-
-/* Creating a Parallax (Webpage navigation bar doesn't move but other content does) */
-
-.homephoto, .aboutphoto, .contactphoto {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/* Photo imports and sizing */
-.homephoto {
-	background-image: url();
-	min-height: 100%
-}
-
-.aboutphoto{
-	background-image: url();
-	min-height: 300 px;
-}
-
-.contactphoto{
-	background-image: url();
-	min-height: 300 px;
-}
-
-.styling-wide {letter-spacing: 15px;}
-.hover-opacity {cursor:pointer;}
 
 /* Navigation Bar Styling */
-#navlist{
+ul{
 	list-style-type: none;
-	margin: 10;
-	padding: 10;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#688277ff;
 }
 
-/* Button Styling */
-.button{
-	background-color:#6a321e;
-	border: none;
-	color:#906b4e;
-	padding: 15px 32px;
-	text-align: Center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 18px;}
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color:#F4EBE2ff;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	border: 2px solid;
+	border-color:#724B3Cff;
+	background-color:#4B594Cff;
+}
+
+.active {
+	border: 2px solid;
+	border-color:#724B3Cff;
+	background-color: #4B594Cff;
+  }
 
 /*container for Contact page */
-.container{
+.containerC{
 	max-width: 600px;
 	margin: 50px auto;
 	padding: 20 px;
-	background-color:#3b1c13;
+	background-color:#3B2E25ff;
 	border-radius: 8px;
-	box-shadow: 0 0 10px #0f1110;
+	box-shadow: 0 0 7px #724B3Cff;
+	text-align: center;
 }
 
 form{
@@ -79,32 +98,54 @@ form{
 }
 
 input[type="text"], textarea{
-	width: 100%;
+	width: 98%;
 	padding: 10px;
 	margin-top: 5px;
-	margin-bottom:20 px;
-	border: 1px solid #322d24;
+	border: 1px solid ;
 	box-sizing: border-box;
-
 }
 
 input[type="submit"]{
-	background-color:#6a321e;
-	color: #906b4e;
+	background-color:#3B2E25ff;
+	color:#F4EBE2ff ;
 	padding: 12px 20px;
 	border: none;
-	border-radius: 4px;
+	border-radius: 2px;
 	cursor: pointer;
 	font-size: 16 px;
 }
 
 input[type="submit"]:hover{
-	background-color:#322d24;
+	background-color:#724B3Cff;
 }
 
+label{
+	margin: 2%;
+}
 
+/* Container for About Page */
+.containerA{
+	float: right;
+	max-width: 500px;
+	margin-top: 50px auto;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	padding: 20 px;
+	background-color:#3B2E25ff;
+	box-shadow: 0 0 7px #724B3Cff;
+	text-align: left;
+}
 
+/* form validation */
+.error{
+	color:red;
+}
 
+/* making footer stay at bottom*/
+footer{
+	bottom:0%;
+	position:fixed;
+}
 
 
 
