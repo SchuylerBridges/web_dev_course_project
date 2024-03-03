@@ -18,17 +18,18 @@
 	font-style: normal;
   }
 
-.imgContainer{
-	
-}
+/* formatting for header*/
 .h1Container{
-	max-width: 35%;
-	margin-top: 20px auto;
-	padding: 10px;
-	background-color:#3B2E25ff;
+	max-width: 100%;
+	height: 80px;
+	background-image:url("trees.jpg");
+	background-size: cover;
+	border:5px solid #3B2E25ff;
 	box-shadow: 0 0 7px #724B3Cff;
-	text-align: left;
+	position:relative;
+	overflow:hidden;
 }
+
 
 h1,h2,h3,h4,h5,h6{
 	font-family: Farsan;
@@ -126,7 +127,7 @@ label{
 /* Container for About Page */
 .containerA{
 	float: right;
-	max-width: 500px;
+	max-width: 55%;
 	margin-top: 50px auto;
 	margin-right: 20px;
 	margin-bottom: 0px;
@@ -136,16 +137,25 @@ label{
 	text-align: left;
 }
 
-/* form validation */
-.error{
-	color:red;
-}
 
 /* making footer stay at bottom*/
 footer{
 	bottom:0%;
 	position:fixed;
 }
+
+/* Table for home page */
+
+table{
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 80px;
+	border: none;
+	text-align: center;
+	table-layout:fixed;
+}
+
+
 
 
 
